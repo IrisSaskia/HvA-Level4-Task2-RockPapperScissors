@@ -12,4 +12,7 @@
     <string name="player_text">Player</string>
     <string name="computer_description">Computer image result</string>
     <string name="player_description">Player image result</string>
+    <string name="result_draw">Draw</string>
+    <string name="result_win">You win!</string>
+    <string name="result_lose">Computer wins!</string>
 </resources>
