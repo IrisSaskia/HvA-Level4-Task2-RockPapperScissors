@@ -1,7 +1,8 @@
-package com.example.rockpapperscissorskotlin
+package com.example.rockpapperscissorskotlin.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.rockpapperscissorskotlin.R
 
 class MainActivity : AppCompatActivity() {
 
