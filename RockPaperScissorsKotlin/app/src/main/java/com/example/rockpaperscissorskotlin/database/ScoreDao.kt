@@ -16,4 +16,7 @@ interface ScoreDao {
 
     @Update
     suspend fun updateScore(score: Score)
+
+    @Query("DELETE FROM scoreTable")
+    suspend fun deleteAllScores()
 }

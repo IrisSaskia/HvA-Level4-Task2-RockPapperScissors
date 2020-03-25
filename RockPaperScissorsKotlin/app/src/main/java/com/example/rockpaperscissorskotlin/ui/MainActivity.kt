@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-        supportActionBar?.title = "Rock, Paper, Scissors Kotlin"
+        supportActionBar?.title = getString(R.string.app_name)
 
         scoreRepository = ScoreRepository(this)
 

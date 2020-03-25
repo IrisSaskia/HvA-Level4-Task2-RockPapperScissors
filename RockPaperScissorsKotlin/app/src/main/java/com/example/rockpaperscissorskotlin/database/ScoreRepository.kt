@@ -26,4 +26,8 @@ class ScoreRepository(context: Context) {
     suspend fun updateScore(score: Score) {
         scoreDao.updateScore(score)
     }
+
+    suspend fun deleteAllScores() {
+        scoreDao.deleteAllScores()
+    }
 }
